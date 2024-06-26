@@ -6,8 +6,9 @@ This project implements a candidate matching system that recommends suitable can
 2. **Similarity Calculation:** Employs cosine similarity to measure the similarity between job requirements and candidate qualifications based on their vector representations. (Initial approach focused on titles and skills, later expanded to include profile descriptions as well)
 
 ## Dataset 
-Dataset for creating candidate profile : [Link](https://www.kaggle.com/stackoverflow/stack-overflow-2018-developer-survey#survey_results_public.csv)
-Dataset for job-postings [Link](https://www.kaggle.com/PromptCloudHQ/us-technology-jobs-on-dicecom)
+1. Dataset for creating candidate profile : [Link](https://www.kaggle.com/stackoverflow/stack-overflow-2018-developer-survey#survey_results_public.csv)
+
+2. Dataset for job-postings [Link](https://www.kaggle.com/PromptCloudHQ/us-technology-jobs-on-dicecom)
 
 ## Feature Extraction and preprocessing
 1. Initially traditional EDA was done on both the dataset . Duplicates and non english words were removed (NLTK Libraries).
@@ -31,4 +32,4 @@ You may indiviually run the `End-to-End/Candidate_Matching.ipynb` file or run us
    ```
 
 ## Interface
-<img src="https://github.com/farvath/ChessCognito/blob/main/setup.jpg" width="400px" height="400px" alt="alt text">
+<img src="https://github.com/farvath/Candidate-Matching/blob/main/interface_results/output.jpg" width="400px" height="400px" alt="alt text">
